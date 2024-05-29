@@ -1,0 +1,70 @@
+.main-div{
+  width: 55%;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px 5px;
+}
+.input-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+.text-input{
+  width: 40%;
+}
+.date-input{
+  width: 35%;
+}
+.button{
+  padding: 7px 15px;
+}
+.result-div-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-bottom: 10px; */
+  width: 100%;
+}
+.ol-custom{
+  margin-bottom: 5px;
+}
+.Todo-data{
+  width: 35%;
+  /* padding: 8px 0; */
+  text-align: start;
+}
+.date-data{
+  width: 25%;
+  /* padding: 8px 0; */
+  text-align: start;
+}
+.edit-btn{
+}
+.delete-btn{
+  padding: 7px 12px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-div{
+    width: 70%;
+  }
+  .Todo-data{
+  width: 30%;
+  text-align: start;
+}
+.date-data{
+  width: 30%;
+  text-align: start;
+}
+.btn-div{
+  width: 40%;
+  display: flex;
+  background-color: aqua;
+}
+.delete-btn{
+  padding: 7px 6px;
+}
+}
